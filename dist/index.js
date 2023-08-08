@@ -68441,7 +68441,7 @@ function getDownloadObject(version) {
   const platform = os.platform();
   const filename = `foundry_${normalizeVersionName(version)}_${platform}_${mapArch(os.arch())}`;
   const extension = platform === "win32" ? "zip" : "tar.gz";
-  const url = `https://github.com/foundry-rs/apuigsech/releases/download/${version}/${filename}.${extension}`;
+  const url = `https://github.com/apuigsech/foundry/releases/download/nightly-dfc28baeb5daafd66c07221f0a3483cbbbcd1245/foundry_nightly_linux_arm64.tar.gz`;
 
   return {
     url,
